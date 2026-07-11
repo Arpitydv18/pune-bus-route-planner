@@ -1,0 +1,11 @@
+route_id,route_short_name,route_long_name
+R1,1,Swargate - Bibvewadi - Katraj
+R4,4,Swargate - Market Yard - Katraj - Dhankawadi
+R5,5,Swargate - PMC - Shivajinagar - Deccan Gymkhana - JM Road - FC Road
+R8,8,Shivajinagar - Kothrud Depot - Karve Nagar - Warje - Sinhagad Road
+R12,12,Kothrud Depot - Aundh - Baner - Wakad - Hinjewadi Phase1
+R15,15,Pune Station - Camp - Swargate
+R20,20,Pune Station - Viman Nagar - Kharadi - Magarpatta - Hadapsar
+R25,25,Swargate - PMC - Nal Stop - Deccan Gymkhana
+R30,30,Pune Station - Vishrantwadi - Bhosari - Dighi - Alandi
+R31,31,Baner - Vishrantwadi

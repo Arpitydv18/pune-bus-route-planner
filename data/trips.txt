@@ -1,0 +1,11 @@
+trip_id,route_id
+T_R1,R1
+T_R4,R4
+T_R5,R5
+T_R8,R8
+T_R12,R12
+T_R15,R15
+T_R20,R20
+T_R25,R25
+T_R30,R30
+T_R31,R31

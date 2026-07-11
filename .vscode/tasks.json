@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build route_planner (debug)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-g",
+                "-Wall",
+                "-Iinclude",
+                "-o",
+                "route_planner",
+                "src/main.cpp",
+                "src/gtfs_loader.cpp",
+                "src/graph.cpp",
+                "src/pathfinder.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiles the project with debug symbols (-g) for use with the debugger."
+        },
+        {
+            "label": "Build route_planner (release)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-O2",
+                "-Wall",
+                "-Iinclude",
+                "-o",
+                "route_planner",
+                "src/main.cpp",
+                "src/gtfs_loader.cpp",
+                "src/graph.cpp",
+                "src/pathfinder.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiles the project with optimizations, no debug symbols."
+        }
+    ]
+}
